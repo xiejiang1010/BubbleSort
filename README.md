@@ -6,7 +6,7 @@ public class BubbleSort{
     //print 10 random numbers
     int str[] = new int[10];
     System.out.println("排序前:");
-    for(int i = 0; i <= str.length;i++){
+    for(int i = 0; i < str.length;i++){
       str[i] = (int)(Math.random()*100);
       System.out.print(str[i]+" ");
     }
@@ -26,7 +26,7 @@ public class BubbleSort{
     
     //print sort number
     System.out.println("排序后:");
-    for(int j = 0;j< str.length-1;j++){
+    for(int j = 0;j< str.length;j++){
       System.out.print(str[j]+" ");
     }
   }
